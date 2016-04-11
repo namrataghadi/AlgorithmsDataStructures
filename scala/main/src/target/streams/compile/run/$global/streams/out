@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning LeetCode330 [0m
+[0m[[0minfo[0m] [0mRunning LeetCode332 [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/nghadi/Desktop/Interviews/interview_questions/AlgorithmsDataStructures/scala/main/src/target/scala-2.11/classes[0m
@@ -153,8 +153,8 @@
 [0m[[0mdebug[0m] [0m	/var/root/.ivy2/cache/com.sun.istack/istack-commons-runtime/jars/istack-commons-runtime-2.16.jar[0m
 [0m[[0mdebug[0m] [0m	/var/root/.ivy2/cache/com.sun.xml.fastinfoset/FastInfoset/jars/FastInfoset-1.2.12.jar[0m
 [0m[[0mdebug[0m] [0m	/var/root/.ivy2/cache/javax.xml.bind/jsr173_api/jars/jsr173_api-1.0.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-14 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-14 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 [0m[[0mdebug[0m] [0mExited with code 0[0m
