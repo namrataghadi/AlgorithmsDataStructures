@@ -1,0 +1,40 @@
+case class Node(data:Int,left:Node,right:Node)
+
+object TreeFromAncestorMatrix extends App{
+
+  val matrix = Array(Array(0,0,0,0,0,0),
+                     Array(1,0,0,0,1,0),
+                      Array(0,0,0,1,0,0),
+                      Array(0,0,0,0,0,0),
+                      Array(0,0,0,0,0,0),
+                      Array(1,1,1,1,1,0))
+
+
+  def ancestorTree(matrix:Array[Array[Int]]):Node ={
+    val parent = Array[Int](matrix.size)
+
+    val map = collection.mutable.Map[Int,Int]()
+    val root:Node = null
+
+    for(i:Int <- 0 to matrix.size){
+      var sum = 0
+      for (j <- 0 to matrix(0).size)
+        sum = sum + matrix(i)(j)
+
+      map(sum) = i
+
+
+    }
+
+    val nodes = List[Node]()
+
+    map.foreach{
+      case (k,v) =>
+           nodes[v] = Node(v,null,null)
+
+
+    }
+
+  }
+
+}
